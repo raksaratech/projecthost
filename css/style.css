@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+}
+
+/* background */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  background: #eee;
+  text-align: center;
+}
+
+main{
+  background: #333;
+  padding: 20px;
+  
+}
+
+.intro{
+  background: #fff;
+  padding: 60px 30px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+.intro h1 {
+  font-size: 18pt;
+  padding-bottom: 15px;
+
+}
+.intro p{
+  font-size: 14px;
+}
+.clock-wrapper{
+    line-height: 2;
+}
+
+/* header */
+.clock-wrapper h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em;
+  color: #fff;
+}
+
+/* buttons */
+.clock-wrapper button {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 10px 30px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: 0;
+  color: #fff;
+  transition: all ease 300ms;
+  margin: 10px 0;
+}
+.clock-wrapper button:hover {
+  color: #333;
+  background: #fff;
+  
+}
+
+/* center content vertically and horizontally */
+.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: default;
+}
+
+/* variable misc classes */
+.hide {
+  display: none;
+}
+
+
+input[type=text] {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button{
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+canvas{
+/*prevent interaction with the canvas*/
+pointer-events:none;
+}
